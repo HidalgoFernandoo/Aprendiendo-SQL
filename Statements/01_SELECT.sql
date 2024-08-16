@@ -10,3 +10,9 @@ SELECT id_usuarios, nombre FROM global.usuarios;
 
 SELECT nombre, id_usuarios FROM global.usuarios;
 
+/* Un detalle importante es que las claúsulas tienen un orden.
+
+select,
+from
+where
+*/
