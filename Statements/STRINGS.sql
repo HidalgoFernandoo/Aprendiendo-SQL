@@ -65,3 +65,4 @@ SELECT SUBSTR(nombre, 1, 1) AS primera_letra FROM productos;
 
 -- Se tiene una tabla de usuarios con las columnas nombre y apellido. Utilizando la función SUBSTR(), selecciona 3 caracteres del apellido de María, partiendo desde el segundo caracter. Asigna el alias 'tres_caracteres_del_apellido' a la columna creada.
 SELECT SUBSTR(apellido, 2, 3) AS "tres_caracteres_del_apellido" FROM usuarios WHERE nombre = "María";
+

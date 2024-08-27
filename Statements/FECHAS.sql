@@ -57,3 +57,4 @@ SELECT monto, strftime("%m-%Y", fecha_venta) AS mes_año FROM ventas;
 
 -- Dada una tabla ventas con las columnas monto y fecha_venta, selecciona toda la información de las ventas del 2015
 SELECT * FROM ventas WHERE strftime("%Y", fecha_venta) = "2015";
+
